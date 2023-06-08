@@ -50,7 +50,7 @@ option = st.selectbox("Choose Your Stock for Prediction",nifty)
 # making columns for start date and end date
 st_ = datetime.date.today() - relativedelta(years=5)
 # st_ = datetime.date.today() - relativedelta(months=3)
-# print(st_)
+print(st_)
 # start,end = st.columns(2)
 
 # with start:

@@ -16,7 +16,7 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM, Dropout , TimeDistributed , Conv1D , MaxPooling1D , Flatten , Bidirectional
 from keras.callbacks import ModelCheckpoint
-import pickle
+import pickle5 as pickle
 import matplotlib.pyplot as plt
 import json
 

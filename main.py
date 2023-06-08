@@ -48,7 +48,7 @@ option = st.selectbox("Choose Your Stock for Prediction",nifty)
 #     frame = st.write("Chose DataFram",['1m', '2m', '5m', '15m', '30m', '60m', '90m', '1h', '1d', '5d', '1wk', '1mo', '3mo'])
 
 # making columns for start date and end date
-st_ = datetime.date.today() - relativedelta(years=5)
+st_ = datetime.date(2018, 1, 1)
 # st_ = datetime.date.today() - relativedelta(months=3)
 # print(st_)
 # start,end = st.columns(2)

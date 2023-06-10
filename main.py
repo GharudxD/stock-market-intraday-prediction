@@ -130,10 +130,10 @@ if result:
         pred = prediction(df)
         if pred[0][0]:
             # st.write('Bullish',color='g')
-            new_title = '<p style="font-family:sans-serif; color:Green; font-size: 42px;"><centre>Bullish🐂</centre></p>'
+            new_title = '<p style="font-family:sans-serif; color:Green; font-size: 42px;"><centre>Take LONG position🐂</centre></p>'
             st.markdown(new_title, unsafe_allow_html=True)
         else:
             # st.write('Barrish',color='r')
-            new_title = '<p style="font-family:sans-serif; color:Red; font-size: 42px;"><centre>Barrish🐻</centre></p>'
+            new_title = '<p style="font-family:sans-serif; color:Red; font-size: 42px;"><centre>Take SHORT position🐻</centre></p>'
             st.markdown(new_title, unsafe_allow_html=True)
             
